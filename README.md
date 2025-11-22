@@ -1,0 +1,1 @@
+static website build to demo HTML, CSS, JS
