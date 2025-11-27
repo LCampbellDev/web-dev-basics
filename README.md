@@ -20,25 +20,26 @@ Session 1. 2.5 hours (if the copy had been written already would have been quick
  Running total hours: 2.5
  
  Next time:
-Session 2. ----hours
+Session 2. 2 hours
 -create new branch
 - upstream git command for pushing to same feature, push more often?
 -update identified errors and reflect/note how to avoid same errors in future
 -delete time tracking and tasks list from html and update in readme
+-Link html to css an JS files DONE
+-add css styling DONE 
 
-Running total hours:
+Running total hours: 4.5
 
  Subsequent tasks:
  Session 3. ----hours
- -create new branch
- -Link html to css an JS files
+ -create new branch 
  -add image
  -add table and content
  -add links in further recommendations
 
  Session 4. ----hours
- -create new branch
- -add css styling
+ -create new branch DONE
+ -add css styling DONE - update fonts next time
 
  Session 5. ----hours
  -create new branch
@@ -50,11 +51,11 @@ Running total hours:
 
  Session 7. ----hours
  -create new branch
- -add accessinility helpers
+ -add accessibility helpers - added focus button orange outline in CSS
 
  Session 8. ----hours
  -create new branch
- -check responsiveness mobile/web/devices
+ -check responsiveness mobile/web/devices added media query - check this
 
  Running total hours:
 

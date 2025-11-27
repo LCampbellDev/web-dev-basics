@@ -1,0 +1,74 @@
+/* main wrapper for spacing and text alignment*/
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+body {
+  background-color: #b3c7f7;
+  color: #222;        /* dark grey, very readable */
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #b3c7f7, #8aa6e8);
+}
+
+.why,
+.what,
+.resources,
+.next-steps {
+    background: #fefefe;
+    padding: 1.75rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+h3 {
+    color: #054fb9;
+}
+
+blockquote {
+    color: #b51963;
+    font-weight: bold;
+    text-align: center;
+}
+
+#paragraph {
+    color: red;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.italic {
+    font-style : italic;
+    color: black;
+}
+
+a:focus, button:focus, input:focus {
+    outline: 2px solid orange;
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 1.8rem; }
+    section { padding: 1.25rem; }
+}

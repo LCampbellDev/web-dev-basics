@@ -1,26 +1,35 @@
 <!--declare the file type:-->
-<!==DOCTYPE html>
+<!DOCTYPE html>
 <!--html tag is always parent-->
-<html>
-<html lang = "en"></html>
-    
-    <body> 
-        <head>
-        <!--insert meta data - page title, social links if relevant-->
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
-        </head>
-        <title>Web Development Basics</title>
-        <main>
-        <!--think could have without 'main' tag. Does main help readability? screenreaders? Should the title element also go in main?-->
+<html lang = "en">
+
+<head>
+    <!--insert meta data - page title, social links if relevant-->
+    <meta charset="UTF-8">
+        <title>Web Development Basics</title> <!--browser title-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body> 
+    <main>
+        <!--Add sections for readability and more modern layout: 1. Hero -->
+        <section class="hero">
             <h1><strong>Web Development Basics</strong></h1>
-            <h2><i>Tips and free resources you can use to build your skills</i></h2>
-            <h3>Why learn web development?</h3>
+            <h3><i>Tips and free resources you can use to build your skills</i></h3>
+        </section>
+
+        <!-- Section 2. Why learn web development -->
+        <section class="why">
+            <h2>Why learn web development?</h2>
             <p>Why not! There are so many transferrable skills to be learnt from coding, from problem solving to resilience, to keeping the brain working and healthy by forming new neural pathways, to actually becoming a web developer or software engineer. So, give it a go and see if you enjoy it.</p>
-            <!--use span so these quotes can stand out from the main text/paragraphs-->
-            <span>"Coding is a great hobby, I love how I can do it anytime, on my own and get that dopamine hit from building something tangible."</span>
-            <h3>What exactly is web development?</h3>
-            <p>Web development foundations most commonly involve: <!--add unordered list ul-->
+            <blockquote>"Coding is a great hobby, I love how I can do it anytime, on my own and get that dopamine hit from building something tangible."</blockquote>
+        </section>
+
+        <!--section 3. What is web development-->
+        <section class="what">
+            <h2>What exactly is web development?</h2>
+            <p>Web development foundations most commonly involve:</p> <!-- unordered list ul-->
                 <ul>
                     <li>In a nutshell, <strong>building websites.</strong></li>
                     <li><strong>HTML</strong>- the strutcure and layout of the page (remember early 90s websites? these were built with html only).</li>
@@ -29,7 +38,11 @@
                 </ul>
                 <p>There are other ways to build websites, however for a beginner this is the simplest way to get started.</p>
                 <p>The coding knowledge and skills you develop in HTML, CSS and JavaScript for web development can be used specific to that role, or be a good foundation to build on with further programming and software engineering skills.</p>
-                <span>"I've met and made friends with people I otherwise wouldn't have got to know through attending local coding meetups.  This has also been a great way to get feedback and mentoring and to find open source projects to get involved in."</span>
+                <blockquote>"I've met and made friends with people I otherwise wouldn't have got to know through attending local coding meetups.  This has also been a great way to get feedback and mentoring and to find open source projects to get involved in."</blockquote>
+            </section>
+
+            <!-- Section 4. Resources -->
+            <section class="resources">
                 <h2>Where to start learning coding?</h2>
                 <h3><i>And for free!</i></h3>
                 <p>Here are my recommendations. They are free at the time of writing this and I will only recommend resources I have tried.</p>
@@ -38,26 +51,35 @@
                 -column 2: details/review
                 -column 3: the link hyperlinked so can be copy and pasted or clicked-->
 
-                <!!--need to look up documentation on tables for reminder. Will include:
+                <!--To Do: Insert table + content (title, descritption, link):Include:
                 1. Code Institute 5 fay web dev challenge src=https://codeinstitute.net/5-day-coding-challenge/
                 2. W3schools tutorials - link to html, CSS< JS tutorials - perhaps that could be ordered list within the table cell
                 3.freecodecamp
                 4.Codecademy free courses (some courses and career pathways paid)
-                5.Traversy media youtube
+                5.Traversy media youtube-->
+            </section>
 
+            
 <!--add sentence re representation then free resources and networks Coding Black Females and Code First girls. And ABC? 100devs-Leon Noel.  Maybe with subheadings so can have the link, the description and who it's for eg. women and non-binary people / underepresentend genders / People of COlour / Women of Colour / if ABC - need to checkout Autistic Black Coders/ OR alternatively include in the table above with a note.  If separate consider calling the above table 'Free resources for all'-->
-            </p>
+            
 
+            <!--Section 5. Next steps-->
+            <section class="next-steps">
             <p>If you get hooked and want to build your skills further you may wish to try a taught course or bootcamp.  I've definitely gained a lot from live teaching, group work and one to one mentoring. I'd say it has sped up my progress and helped me learn and practice skills that are necessary for working as a developer, but not possible on your own when doing self-directed learning.</p>
+            </section>
+
         </main>
+        <footer>
+        <!--future footer-->
+        </footer>
     </body> 
-    <footer></footer>
+    
 </html>
 
 <!--This above is coded from recall (initial version). 
 
 Then, whilst adding content, I looked up documentation on:
--span briefly after writing it
+-span briefly after writing it - later changed to blockquote
 -whether h tags should go inside paragraphs, which they don't so my initial code was correct
 -unordered lists, I could remember ul, but not how to separate the items with li-->
 
@@ -87,6 +109,9 @@ change:
 Need to look at documentation next re:
 meta data
 linking to css and js files
+- added head links
+-moved some elements  - head out of body and unordered list out of paragraph
+-looked up span and changed to semantic - blockquote
 
 Future lookup re:
 Adding sections
