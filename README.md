@@ -14,6 +14,7 @@ Session 1. 2.5 hours (if the copy had been written already would have been quick
  -write basic html boilerplate
  -add copy and elements
  -stage and commit
+ -did git push -u near end then git push
 
 
  Running total hours: 2.5
@@ -21,7 +22,7 @@ Session 1. 2.5 hours (if the copy had been written already would have been quick
  Next time:
 Session 2. ----hours
 -create new branch
--try upstream git command for staging to same feature
+- upstream git command for pushing to same feature, push more often?
 -update identified errors and reflect/note how to avoid same errors in future
 -delete time tracking and tasks list from html and update in readme
 
