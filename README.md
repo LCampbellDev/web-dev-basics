@@ -31,29 +31,32 @@ Session 2. 2 hours
 Running total hours: 4.5
 
  Subsequent tasks:
- Session 3. ----hours
+ Session 3. 1 hour
+ -create new branch
+ -update fonts DONE
  -create new branch 
- -add image
- -add table and content
- -add links in further recommendations
+ -add image DONE + add img css
 
- Session 4. ----hours
- -create new branch DONE
- -add css styling DONE - update fonts next time
+ Running total hours: 5.5
+
+
+To do
 
  Session 5. ----hours
- -create new branch
- -add JS colour change when link
 
- Session 6. ----hours
- -create new branch
+ -create new branch clean CSS / html
+ -move photo credit directly under photo
+ -fix list bullet point styling
+ 
+ -add table and content
+ -add links in further recommendations
+ -create new branch - update JS
+ -add event listeners e.g. JS colour change when link/hover
  -add JS dark light mode toggle and relevant css styling
 
- Session 7. ----hours
  -create new branch
  -add accessibility helpers - added focus button orange outline in CSS
 
- Session 8. ----hours
  -create new branch
  -check responsiveness mobile/web/devices added media query - check this
 
