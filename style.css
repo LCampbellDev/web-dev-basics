@@ -1,25 +1,28 @@
-/* main wrapper for spacing and text alignment*/
+/* main wrapper for spacing and text alignment */
 main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
+/* base page styles */
 body {
-  background-color: #b3c7f7;
-  color: #222;        /* dark grey, very readable */
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
+    background-color: #b3c7f7;
+    color: #222; /* dark text so paragraphs are visible */
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
-
+/* hero section */
 .hero {
     text-align: center;
     padding: 4rem 0;
     background: linear-gradient(135deg, #b3c7f7, #8aa6e8);
+    color: #111;
 }
 
+/* content sections as cards */
 .why,
 .what,
 .resources,
@@ -30,45 +33,87 @@ body {
     margin-bottom: 1.5rem;
 }
 
+/* Headings: more modern looking font + hierarchy */
+h1,
+h2,
+h3 {
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+}
 
 h1 {
     text-align: center;
-    color: black;
+    color: #111;
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
     text-align: center;
     color: darkblue;
+    font-size: 1.6rem;
+    margin: 1rem 0 0.75rem;
 }
 
 h3 {
     color: #054fb9;
+    font-size: 1.25rem;
+    margin: 0.75rem 0;
 }
 
+/* Make the hero subheading centred and a bit softer */
+.hero h3 {
+    text-align: center;
+    color: #111;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* quotes */
 blockquote {
     color: #b51963;
     font-weight: bold;
     text-align: center;
+    margin: 1.5rem 0;
 }
 
-#paragraph {
-    color: red;
+/* Paragraphs and lists */
+p {
+    margin-bottom: 1rem;
 }
 
+ul {
+    margin: 0 0 1rem 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* utility classes */
 .bold {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .italic {
-    font-style : italic;
+    font-style: italic;
     color: black;
 }
 
-a:focus, button:focus, input:focus {
+/* focus outlines for accessibility */
+a:focus,
+button:focus,
+input:focus {
     outline: 2px solid orange;
 }
 
+/* mobile tweaks */
 @media (max-width: 600px) {
-    h1 { font-size: 1.8rem; }
-    section { padding: 1.25rem; }
+h1 {
+    font-size: 1.8rem;
+}
+
+section {
+    padding: 1.25rem;
+}
 }
